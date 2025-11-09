@@ -96,3 +96,4 @@ lib/libSDL2.dylib
 lib/libSDL2main.a
 Makefile
 Main
+.vscode/tasks.json
