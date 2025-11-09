@@ -37,7 +37,13 @@ namespace Photon
 
         private:
 
-            std::vector<> mThreads;
+            unsigned long mAmount;
+
+            std::thread mSelf;
+
+            std::thread mOpenGLThread;
+
+            std::vector<std::thread> mThreads;
 
     };
 
