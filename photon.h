@@ -11,6 +11,14 @@
 #include "opengl.h"
 
 
+
+
+
+
+
+
+
+
 namespace Photon
 {
 
@@ -25,8 +33,16 @@ namespace Photon
 
 	} windowparameters_t;
 
+	extern bool active;
+
+	extern void R_InitializePhoton();
+
+	extern void R_TerminatePhoton();
+
 }
 
 
 
 #endif
+
+
