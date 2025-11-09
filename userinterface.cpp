@@ -37,7 +37,7 @@ void Photon::R_TerminateOpenGL()
 	if (!Photon::opengl_initialized || Photon::window || Photon::context) { return; }
 
 
-	SDL_GL_DestroyContext(Photon::context);
+	SDL_GL_DeleteContext(Photon::context);
 
 	SDL_DestroyWindow(Photon::window);
 
@@ -46,4 +46,6 @@ void Photon::R_TerminateOpenGL()
 	Photon::opengl_initialized = false;
 
 }
+
+
 
