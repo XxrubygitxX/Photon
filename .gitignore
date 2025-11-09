@@ -1,3 +1,5 @@
+.gitignore
+.DS_Store
 include/SDL2/begin_code.h
 include/SDL2/close_code.h
 include/SDL2/SDL_assert.h
