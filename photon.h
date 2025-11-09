@@ -9,6 +9,7 @@
 
 
 #include "opengl.h"
+#include "shader.h"
 
 
 

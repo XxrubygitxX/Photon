@@ -99,3 +99,5 @@ Main
 .vscode/tasks.json
 Main.dSYM/Contents/Resources/Relocations/aarch64/Main.yml
 Main.dSYM/Contents/Info.plist
+vertex_shader.gl
+fragment_shader.gl
